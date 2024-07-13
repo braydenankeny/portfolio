@@ -149,3 +149,44 @@ footer a{
 footer a:hover{
     color: black;
 }
+
+/* Teams Page*/
+
+#pointsparagraph{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    background-color: #e10600;
+    border: 20px solid #e10600;
+    box-shadow: 5px 5px 15px #7c8388;
+}
+#pointsimg{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#divider{
+    background-color: #e10600;
+    width: 75%;
+}
+#driversparagraph{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    background-color: #e10600;
+    border: 20px solid #e10600;
+    box-shadow: 5px 5px 15px #7c8388;
+}
+#driversimg{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
