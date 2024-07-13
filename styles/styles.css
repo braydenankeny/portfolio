@@ -2,6 +2,10 @@ body{
     margin: 0 auto;
 }
 header {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
     background-color: #e10600;
     font-family: "Titillium Web", Helvetica;
     display: grid;
@@ -38,6 +42,7 @@ main {
     font-size: 22px;
 }
 .banner{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr, 3fr, 1fr;
 }
@@ -153,7 +158,7 @@ footer a:hover{
 /* Teams Page*/
 
 #pointsparagraph{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
