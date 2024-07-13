@@ -1,0 +1,151 @@
+body{
+    margin: 0 auto;
+}
+header {
+    background-color: #e10600;
+    font-family: "Titillium Web", Helvetica;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100px;
+    box-shadow: 5px 5px 10px #7c8388;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: black;
+}
+#logo_link{
+    margin-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;  
+    width: 75%;
+    height: 75%;
+}
+main {
+    font-family: "Quicksand", Helvetica;
+    font-size: 22px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+}
+#bannerimg{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 100%;
+    z-index: -1;
+}
+#bannertxt{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.infogrid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+}
+.infocard{
+    text-align: center;
+}
+.infocard a{
+    text-decoration: none;
+}
+.infocard:hover{
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+#carcard img, #drivercard img, #trophycard img{
+    height: 230px;
+    width: 230px;
+    border: 15px solid #e10600;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#carcard{
+    grid-column: 2;
+}
+#cartext{
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+#carcard:hover #cartext{
+    visibility: visible;
+    opacity: 100;
+    z-index: 1;
+}
+#drivercard{
+    grid-column: 4;
+}
+#drivertext{
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+#drivercard:hover #drivertext{
+    visibility: visible;
+    opacity: 100;
+    z-index: 1;
+}
+#trophycard{
+    grid-column: 6;
+}
+#trophytext{
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+#trophycard:hover #trophytext{
+    visibility: visible;
+    opacity: 100;
+    z-index: 1;
+}
+#infoparagraph{
+    margin: 100px;
+    background-color: #e10600;
+    border: 20px solid #e10600;
+    color: white;
+    text-align: center;
+    box-shadow: 25px 25px 5px #7c8388;
+}
+footer{
+    background-color: #e10600;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img{
+    padding-top: 15px;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
