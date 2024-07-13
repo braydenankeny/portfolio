@@ -12,6 +12,7 @@ header {
     grid-template-columns: 150px auto;
     grid-template-rows: 100px;
     box-shadow: 5px 5px 10px #7c8388;
+    z-index: 999;
 }
 nav{
     display: flex;
